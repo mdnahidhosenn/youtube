@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style2.css">
+ <title>YouTube Homepage Clone | Nayem</title>
+ <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+
+ <!-- ------------HEADER------------- -->
+ <div class="container">
+  <header>
+   <nav class="navbar">
+    <div class="nav-section nav-left">
+     <button class="nav-button menu-button">
+      <i class="uil uil-bars"></i>
+     </button>
+     <a href="#" class="nav-logo">
+      <img src="img/logo.png" alt="" class="logo-image">
+      <h2 class="logo-text">YouTube</h2>
+     </a>
+    </div>
+    <div class="nav-section nav-center">
+     <form action="#" class="search-form">
+      <input type="search" placeholder="Search" class="search-input">
+      <button class="nav-button search-button">
+       <i class="uil uil-search"></i>
+      </button>
+     </form>
+     <button class="nav-button mic-button">
+      <i class="uil uil-microphone"></i>
+     </button>
+    </div>
+    <div class="nav-section nav-right">
+     <button class="nav-button theme-button">
+      <i class="uil uil-moon"></i>
+     </button>
+     <img src="img/profile.jpg" alt="" class="user-image">
+    </div>
+   </nav>
+  </header>
+ </div>
+
+ <!-- --------------MAIN------------------ -->
+  <main class="main-layout">
+   <!-- -----------SIDEBAR--------- -->
+    <aside class="sidebar">Sidebar</aside>
+    <div class="content-wrapper">
+       <!-- -----------Category--------- -->
+       <div class="category-list">
+        <button class="category-button">All</button>
+        <button class="category-button active">All</button>
+        <button class="category-button">Website</button>
+        <button class="category-button">Music</button>
+        <button class="category-button">Gaming</button>
+        <button class="category-button">Node.js</button>
+        <button class="category-button">JavaScript</button>
+        <button class="category-button">React.js</button>
+        <button class="category-button">TypeScript</button>
+        <button class="category-button">Conding</button>
+        <button class="category-button">Next.js</button>
+        <button class="category-button">Data analysis</button>
+        <button class="category-button">Web design</button>
+        <button class="category-button">HTML</button>
+        <button class="category-button">Tailwind</button>
+        <button class="category-button">CSS</button>
+        <button class="category-button">Express.js</button>
+      
+          <button class="category-button">All</button>
+          <button class="category-button">Website</button>
+          <button class="category-button">Music</button>
+          <button class="category-button">Gaming</button>
+          <button class="category-button">Node.js</button>
+          <button class="category-button">JavaScript</button>
+          <button class="category-button">React.js</button>
+          <button class="category-button">TypeScript</button>
+          <button class="category-button">Conding</button>
+          <button class="category-button">Next.js</button>
+          <button class="category-button">Data analysis</button>
+          <button class="category-button">Web design</button>
+          <button class="category-button">HTML</button>
+          <button class="category-button">Tailwind</button>
+          <button class="category-button">CSS</button>
+          <button class="category-button">Express.js</butto>
+      </div>
+       <!-- -----------video list--------- -->
+      <div class="video-list">
+<a href="#" class="video-card">
+  <div class="thumbnail-container">
+   <img src="https://i.ytimg.com/vi/OORUHkgg4IM/maxresdefault.jpg" alt="" class="thumbnail">
+   <p class="duration">10.03</p>
+  </div>
+  <div class="video-info">
+    <img src="https://yt3.googleusercontent.com/DRtVBjk2Noax94hHqr8yCcEjhNUhHRvyzBE3qS9WWilnE1-uQQNVnQd8mdG9h_IvNZCRApZSQw=s176-c-k-c0x00ffffff-no-rj" alt="" class="icon">
+    <div class="video-details">
+      <h2 class="title">op 10 Easy To Create JavaScript Games For Beginners</h2>
+      <p class="channel-name">CodiNepal</p>
+      <p class="views">27K Views • 4 months ago</p>
+    </div>
+  </div>
+</a>
+
+
+
+
+
+
+
+<a href="#" class="video-card">
+  <div class="thumbnail-container">
+    <img src=" https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+    <p class="duration">10:03</p>
+  </div>
+  <div class="video-info">
+    <img src="https://yt3.googleusercontent.com/uITV5E7auiZMDD_BwhVRJMHXXY6qQc0GqBgVyP5LWYTmeRlUP2Dc945UlIbODvztd96ReOts=s176-c-k-c0x00ffffff-no-rj
+ " alt="Channer Logo" class="icon">
+ <div class="vidio-details">
+  <h2 class="title"> How to make Responsive Card Slider in HTML CSS & JavaScript</h2>
+  <p class="channel-name"> CodingLab</p>
+  <p class="views">42K Views • 1 year ago</p>
+ </div>
+  </div>
+</a>
+<a href="#" class="video-card">
+  <div class="thumbnail-container">
+    <img src=" https://i.ytimg.com/vi/YEloDYy3DTg/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+    <p class="duration">10:03</p>
+  </div>
+  <div class="video-info">
+    <img src="https://yt3.googleusercontent.com/DRtVBjk2Noax94hHqr8yCcEjhNUhHRvyzBE3qS9WWilnE1-uQQNVnQd8mdG9h_IvNZCRApZSQw=s176-c-k-c0x00ffffff-no-rj
+ " alt="Channer Logo" class="icon">
+ <div class="vidio-details">
+  <h2 class="title"> Create A Responsive Website with Login & Registration Form in HTML CSS and JavaScript</h2>
+  <p class="channel-name">CodingNepal</p>
+  <p class="views"> 68K Views • 9 months ago</p>
+ </div>
+  </div>
+</a><a href="#" class="video-card">
+  <div class="thumbnail-container">
+    <img src=" https://i.ytimg.com/vi/OORUHkgg4IM/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+    <p class="duration">10:03</p>
+  </div>
+  <div class="video-info">
+    <img src="https://i.ytimg.com/vi/hSSdc8vKP1I/maxresdefault.jpg
+ " alt="Channer Logo" class="icon">
+ <div class="vidio-details">
+  <h2 class="title">  Build Hangman Game in HTML CSS and JavaScript</h2>
+  <p class="channel-name">CodingNepal</p>
+  <p class="views">57K Views • 11 months ago</p>
+ </div>
+  </div>
+</a><a href="#" class="video-card">
+  <div class="thumbnail-container">
+    <img src=" https://i.ytimg.com/vi/coj-l7IrwGU/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+    <p class="duration">10:03</p>
+  </div>
+  <div class="video-info">
+    <img src="https://i.ytimg.com/vi/coj-l7IrwGU/maxresdefault.jpg
+ " alt="Channer Logo" class="icon">
+ <div class="vidio-details">
+  <h2 class="title">How to Make Chrome Extension in HTML CSS & JavaScript</h2>
+  <p class="channel-name">CodingNepal</p>
+  <p class="views">24K Views • 1 year ago</p>
+ </div>
+  </div>
+</a><a href="#" class="video-card">
+  <div class="thumbnail-container">
+    <img src=" https://i.ytimg.com/vi/6QE8dXq9SOE/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+    <p class="duration">10:03</p>
+  </div>
+  <div class="video-info">
+    <img src="https://yt3.googleusercontent.com/DRtVBjk2Noax94hHqr8yCcEjhNUhHRvyzBE3qS9WWilnE1-uQQNVnQd8mdG9h_IvNZCRApZSQw=s176-c-k-c0x00ffffff-no-rj
+ " alt="Channer Logo" class="icon">
+ <div class="vidio-details">
+  <h2 class="title">  Create A Draggable Card Slider in HTML CSS and Vanilla JavaScript</h2>
+  <p class="channel-name">CodingNepal</p>
+  <p class="views">14.2K Views • 4 days ago</p>
+ </div>
+  </div>
+</a><a href="#" class="video-card">
+  <div class="thumbnail-container">
+    <img src=" https://i.ytimg.com/vi/q4RgxiDM6v0/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+    <p class="duration">10:03</p>
+  </div>
+  <div class="video-info">
+    <img src="https://yt3.googleusercontent.com/DRtVBjk2Noax94hHqr8yCcEjhNUhHRvyzBE3qS9WWilnE1-uQQNVnQd8mdG9h_IvNZCRApZSQw=s176-c-k-c0x00ffffff-no-rj
+ " alt="Channer Logo" class="icon">
+ <div class="vidio-details">
+  <h2 class="title"> THow to make Responsive Image Slider in HTML CSS and JavaScript</h2>
+  <p class="channel-name">CodingNepal</p>
+  <p class="views">1M Views • 1 year ago</p>
+ </div>
+  </div>
+</a><a href="#" class="video-card">
+  <div class="thumbnail-container">
+    <img src=" https://i.ytimg.com/vi/DLs1X9T1GcY/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+    <p class="duration">10:03</p>
+  </div>
+  <div class="video-info">
+    <img src="https://yt3.googleusercontent.com/DRtVBjk2Noax94hHqr8yCcEjhNUhHRvyzBE3qS9WWilnE1-uQQNVnQd8mdG9h_IvNZCRApZSQw=s176-c-k-c0x00ffffff-no-rj
+ " alt="Channer Logo" class="icon">
+ <div class="vidio-details">
+  <h2 class="title">Create Responsive Image Slider in HTML CSS and JavaScript</h2>
+  <p class="channel-name">CodingNepal</p>
+  <p class="views"> 157K Views • 9 months ago</p>
+ </div>
+  </div>
+</a><a href="#" class="video-card">
+  <div class="thumbnail-container">
+    <img src=" https://i.ytimg.com/vi/20Qb7pNMv-4/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+    <p class="duration">10:03</p>
+  </div>
+  <div class="video-info">
+    <img src="https://yt3.googleusercontent.com/DRtVBjk2Noax94hHqr8yCcEjhNUhHRvyzBE3qS9WWilnE1-uQQNVnQd8mdG9h_IvNZCRApZSQw=s176-c-k-c0x00ffffff-no-rj
+ " alt="Channer Logo" class="icon">
+ <div class="vidio-details">
+  <h2 class="title"> Make A Flipping Card UI Design in HTML & CSS</h2>
+  <p class="channel-name">CodingNepal</p>
+  <p class="views">85K Views • 2 months ago</p>
+ </div>
+  </div>
+</a><a href="#" class="video-card">
+  <div class="thumbnail-container">
+    <img src=" https://i.ytimg.com/vi/_RSaI2CxlXU/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+    <p class="duration">10:03</p>
+  </div>
+  <div class="video-info">
+    <img src="https://yt3.googleusercontent.com/DRtVBjk2Noax94hHqr8yCcEjhNUhHRvyzBE3qS9WWilnE1-uQQNVnQd8mdG9h_IvNZCRApZSQw=s176-c-k-c0x00ffffff-no-rj
+ " alt="Channer Logo" class="icon">
+ <div class="vidio-details">
+  <h2 class="title">Easy way to do Multiple File Uploading using HTML CSS and JavaScript</h2>
+  <p class="channel-name">CodingNepal</p>
+  <p class="views"> 7.4K Views • 3 weeks ago
+  </p>
+ </div>
+  </div>
+</a><a href="#" class="video-card">
+  <div class="thumbnail-container">
+    <img src=" https://i.ytimg.com/vi/cHkN82X3KNU/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+    <p class="duration">10:03</p>
+  </div>
+  <div class="video-info">
+    <img src="https://yt3.googleusercontent.com/DRtVBjk2Noax94hHqr8yCcEjhNUhHRvyzBE3qS9WWilnE1-uQQNVnQd8mdG9h_IvNZCRApZSQw=s176-c-k-c0x00ffffff-no-rj
+ " alt="Channer Logo" class="icon">
+ <div class="vidio-details">
+  <h2 class="title"> Build A Responsive Calculator in HTML CSS & JavaScript</h2>
+  <p class="channel-name">CodingNepal</p>
+  <p class="views">30K Views • 2 years ago
+  </p>
+ </div>
+  </div>
+</a><a href="#" class="video-card">
+  <div class="thumbnail-container">
+    <img src=" https://i.ytimg.com/vi/0_Lwi5ucGwM/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+    <p class="duration">10:03</p>
+  </div>
+  <div class="video-info">
+    <img src="https://yt3.googleusercontent.com/DRtVBjk2Noax94hHqr8yCcEjhNUhHRvyzBE3qS9WWilnE1-uQQNVnQd8mdG9h_IvNZCRApZSQw=s176-c-k-c0x00ffffff-no-rj
+ " alt="Channer Logo" class="icon">
+ <div class="vidio-details">
+  <h2 class="title">Build A Currency Converter using ReactJS</h2>
+  <p class="channel-name">CodingNepal</p>
+  <p class="views">7.2K Views • 2 weeks ago</p>
+ </div>
+  </div>
+</a>
+<a href="#" class="video-card">
+  <div class="thumbnail-container">
+    <img src=" https://i.ytimg.com/vi/AyV954yKRSw/maxresdefault.jpg" alt="Thumbnail" class="thumbnail">
+    <p class="duration">10:03</p>
+  </div>
+  <div class="video-info">
+    <img src="https://yt3.googleusercontent.com/DRtVBjk2Noax94hHqr8yCcEjhNUhHRvyzBE3qS9WWilnE1-uQQNVnQd8mdG9h_IvNZCRApZSQw=s176-c-k-c0x00ffffff-no-rj
+ " alt="Channer Logo" class="icon">
+ <div class="vidio-details">
+  <h2 class="title">Build A Currency Converter using ReactJS</h2>
+  <p class="channel-name">CodingNepal</p>
+  <p class="views">7.2K Views • 2 weeks ago</p>
+ </div>
+  </div>
+</a>
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+ font-family: "Open Sans", sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+:root {
+ --white-color:#fff;
+ --black-color:#000;
+ --light-white-color:#f0f0f0;
+ --light-gray-color:#e5e5e5;
+ --border-color:#d4d4d4;
+ --primary-color:#3b82f6;
+ --secondary-color:#404040;
+ --oberlay-dark-color:rgba(0,0,0,0.6);
+}
+.container {
+ display:flex;
+ flex-direction: column;
+ max-height: 100vh;
+
+}
+.container , .category-list {
+
+ position: sticky;
+ top: 0;
+ z-index: 10;
+ background: var(--white-color);
+ display: block;
+}
+
+.navbar {
+ display: flex;
+ align-items: center;
+ padding: 0.5rem 1rem;
+ justify-content: space-between;
+}
+.navbar :where(.nav-section, .search-form, .nav-logo){
+ display: flex;
+ align-items: center;
+}
+.navbar .nav-section{
+ gap: 1rem;
+}
+.navbar .nav-button {
+ border: none;
+ cursor: pointer;
+ height: 40px;
+ width: 40px;
+ border-radius: 50%;
+background: none;
+}
+.navbar .nav-button:hover {
+ background-color:var(--light-gray-color);
+}
+.navbar .nav-button i {
+ display: flex;
+ font-size: 1.5rem;
+ align-items: center;
+ justify-content: center;
+}
+.navbar :where(.logo-image,.user-image){
+ width:32px;
+ cursor: pointer;
+ border-radius: 50%;
+}
+.navbar .nav-logo {
+ display: flex;
+ gap: 0.5rem;
+ text-decoration: none;
+}
+.navbar .nav-logo .logo-text {
+ font-size: 1.25rem;
+ color: var(--black-color);
+}
+.navbar .nav-center {
+ display: flex;
+ width: 100%;
+ justify-content: center;
+}
+.navbar .search-form {
+ max-width: 550px;
+ flex: 1;
+ height: 40px;
+}
+.navbar .search-form .search-input {
+ width: 100%;
+ height: 100%;
+ padding: 0 1rem;
+ outline: none;
+ font-size: 1rem;
+ border-radius: 3.1rem 0 0 3.1rem;
+ border: 1px solid var(--border-color);
+}
+.navbar .search-form .search-button {
+ width: auto;
+ padding: 0.5rem 1.25rem;
+ border-radius: 0 3.1rem 3.1rem 0;
+ border: 1px solid var(--border-color);
+ border-left: 0;
+}
+
+/* ----category list -------- */
+.main-layout{
+ display: flex;
+ overflow-y: auto;
+}
+.main-layout .content-wrapper {
+ padding: 0 1rem;
+ overflow-x: hidden;
+ width: 100%;
+}
+.content-wrapper .category-list{
+
+ display: flex;
+ gap: 0.75rem;
+ overflow-x: auto;
+ padding: 0.75rem 0 0.7rem;
+ scrollbar-width: none;
+}
+.category-list .category-button{
+ border: none;
+ cursor: pointer;
+ font-size: 0.9rem;
+ font-weight: 500;
+ white-space: nowrap;
+ padding: 0.4rem 0.75rem;
+ border-radius: 0.5rem;
+ background-color: var(--light-gray-color);
+}
+
+
+
+/* ----------------video list --------------------- */
+.content-wrapper .video-list {
+ display: grid;
+ gap: 1rem;
+ padding: 1.25rem 0 4rem;
+ grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+.video-list .video-card  {
+ text-decoration: none;
+}
+.video-list .video-card  .video-info {
+ display: flex;
+ gap: 0.7rem;
+ padding:0.7rem 0.5rem ;
+}
+.video-list .video-card .thumbnail-container {
+ position: relative;
+} 
+.video-list .video-card .thumbnail {
+ width: 100%;
+ border-radius: 0.5rem;
+ aspect-ratio: 16 / 9;
+}
+.video-list .video-card .duration {
+ position: absolute;
+ right: 0.65rem;
+ bottom: 0.8rem;
+ color: #fff;
+ font-size: 0.875rem;
+ padding: 0 0.3rem;
+ border-radius: 0.3rem;
+ background: var(--oberlay-dark-color);
+}
+.video-list .video-card  .icon {
+ width: 36px;
+ height: 36px;
+ border-radius: 50%;
+}
+.video-list .video-card  .title {
+ font-size: 1rem;
+ font-weight: 600;
+ color: var(--black-color);
+overflow:hidden;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+}
+.video-list .video-card  .title:hover{
+ color: var(--primary-color);
+}
+.video-list .video-card p{
+ font-size: 0.875rem;
+ color: var(--secondary-color);
+}
+.video-list .video-card .channel-name {
+ margin: 0.25rem 0 0.15rem;
+}
